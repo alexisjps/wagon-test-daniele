@@ -7,3 +7,9 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+
+Car.create!(name: 'Ferrari', color: 'red', price: 200)
+Car.create!(name: 'Porsche', color: 'Black', price: 400)
+Car.create!(name: 'Bugati', color: 'orange', price: 40)
+Car.create!(name: 'Ferrari', color: 'yellow', price: 300)
